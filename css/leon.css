@@ -177,6 +177,9 @@ body{
 .landing .intro p{
     font-size: 25px;
     line-height: 1.8;
+    background-color: #fffaf08a;
+    border-radius: 26px;
+    border: 2px solid transparent
 
 }
 
@@ -267,8 +270,8 @@ body{
     width: 260px;
 }
 @media (max-width: 1199px){
-    .img-column{
-        /* display: none; */
+    .services .services-cont .img::before{
+        display: none;
     }
 
 }
